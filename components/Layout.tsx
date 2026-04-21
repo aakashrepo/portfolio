@@ -158,7 +158,7 @@ const Layout: React.FC<LayoutProps> = ({ children, onBack, showNav = true, activ
     <div className="h-screen w-screen flex items-center justify-center p-4 relative overflow-hidden bg-[#010205]">
 
       {/* Main Focus Card Container */}
-      <div className="card-stack w-full max-w-[600px] h-[85vh] relative z-30">
+      <div className="card-stack w-full max-w-[760px] h-[85vh] relative z-30">
         <div className="w-full h-full bg-[#0b0b0b] border border-white/8 rounded-[32px] overflow-hidden flex flex-col shadow-[0_30px_80px_rgba(0,0,0,0.65)]">
           
           {/* Internal Card Header (Fixed) */}
